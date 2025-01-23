@@ -217,7 +217,6 @@
             <button onclick="exportToPDF()">Exporteren naar PDF</button>
         </div>
     </div>
-    <script src="./script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     
@@ -228,7 +227,7 @@
         let allLogs = [];
         let sortedLogs = [];
         let sortState = { column: null, direction: 'asc' };
-        alert("asdsa")
+
     
         const API_BASE_URL = window.location.hostname === 'localhost' 
             ? 'http://localhost:5000'
