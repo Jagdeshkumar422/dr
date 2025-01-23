@@ -234,7 +234,7 @@
             ? 'http://localhost:5000'
             : 'https://dr-beige.vercel.app';
     
-    async function login() {
+    const login =async()=> {
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
         const errorDiv = document.getElementById('loginError');
